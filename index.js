@@ -86,7 +86,7 @@ controller.on('rtm_close', function (bot) {
 
 controller.hears(["hi", "hello"], ["mention", "direct_message"], function(bot, message){
 bot.reply(message, "Hello!")
-})
+});
 
 
 
