@@ -83,6 +83,15 @@ controller.on('rtm_close', function (bot) {
 // BEGIN EDITING HERE!
 
 
+var website = link("");
+
+var field = website.document.querySelector("");
+
+if(field.innerHTML!=){
+function(bot, messsage){
+bot.chat.sendMessage(message, )
+}
+}
 
 
 controller.hears(["hi", "hello"], ["mention", "direct_message", "direct_mention"], function(bot, message){
